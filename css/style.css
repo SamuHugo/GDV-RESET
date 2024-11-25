@@ -1,0 +1,474 @@
+@import '../css/base/fonts.css';
+@import '../css/base/elements.css';
+@import '../css/base/variables.css';
+@import '../css/components/nav.css';
+
+
+/* #region ELEMENTS */
+.elementor-divider-1::after,
+.elementor-divider-2::after{
+    content: '';
+    display: block;
+    margin: 0 15px;
+    width: 180px;
+    height: 2px;
+    border-radius: 50px;
+}
+
+.elementor-divider-1::after{
+    background: var(--color-sky);
+}
+
+.elementor-divider-2::after{
+    background: var(--color-green);
+}
+
+.btn-primary{
+    background-color: var(--color-primary-1);
+    font-size: 24px;
+    font-weight: 600;
+    padding: 11px 28px;
+    border-radius: 40px;
+    transition: all .4s;
+}
+
+.btn-primary:hover{
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+.symbols__header{
+    text-align: center;
+    font-size: 40px;
+}
+
+.motto__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.motto__header>span{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 6px;
+    padding: 7px 0;
+}
+
+.information__box{
+    width: 550px;
+}
+
+.information__box>h1{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.information__box>h1>span{
+    text-transform: uppercase;
+}
+
+.information__box>p{
+    font-size: 28px;
+    margin: 30px 0;
+}
+/* #endregion */
+
+/* #region BANNER*/
+
+.container__banner{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content__banner{
+    position: absolute;
+    display: flex;
+    top: 0;left: 0;right: 0;bottom: 0;
+    margin: auto;
+    color: var(--color-white);
+}
+
+.section__banner{
+    margin: auto;
+    width: min-content;
+}
+
+.section__banner>h1{
+    font-family: 'Ledsitex St', sans-serif;
+    font-size: 260px;
+    text-align: center;
+    text-shadow: 0px 0px 30px rgba(0,0,0,0.93);
+}
+
+.section__banner>h2{
+    font-size: 100px;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 0px 0px 30px rgba(0,0,0,0.93);
+}
+/* #endregion*/
+
+/* #region SIN PLANES */
+.container__sin-planes{
+    margin: 40px auto;
+    width: 1200px;
+    height: 770px;
+}
+
+.content__sin-planes{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.header__sin-planes{
+    margin: auto;
+}
+
+.header__sin-planes>.motto__header>span{
+    color: var(--color-sky);
+}
+.content-information__sin-planes{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.content-information__sin-planes>.information__box>h1>span:nth-child(1){
+    color: var(--color-primary-1);
+}
+
+.content-information__sin-planes>.information__box>h1>span:nth-child(2){
+    color: var(--color-orange);
+}
+
+.content-information__sin-planes>.information__box>h1>span:nth-child(3){
+    color: var(--color-primary-3);
+}
+
+.container-img__sin-planes{
+    border-radius: 20px;
+    max-width: 514px;
+    height: 620px;
+    overflow: hidden;
+    box-shadow: var(--drop-shadow-2);
+}
+
+.container-img__sin-planes>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.information__box:nth-child(2){
+    margin-left: 30px;
+    text-align: left;
+}
+/* #endregion */
+
+/* #region NECESITAS AMIGOS */
+.container__n-a{
+    margin: 40px auto;
+    width: 1200px;
+    height: 950px;
+}
+
+.content__n-a{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.header__n-a, .header__qda{
+    margin: auto;
+}
+
+.header__n-a>.motto__header>span{
+    color: var(--color-green);
+}
+
+.content-information__n-a{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.content-information__n-a>.information__box>h1{
+    line-height: normal;
+}
+
+.content-information__n-a>.information__box>h1>span:nth-child(1){
+    color: var(--color-primary-1);
+}
+
+.content-information__n-a>.information__box>h1>span:nth-child(2){
+    color: var(--color-red);
+}
+
+.content-information__n-a>.information__box>h1>span:nth-child(3){
+    color: var(--color-orange);
+}
+
+.container-img__n-a{
+    border-radius: 20px;
+    max-width: 570px;
+    height: 800px;
+    overflow: hidden;
+    box-shadow: var(--drop-shadow-2);
+}
+
+.container-img__n-a>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.information__box:nth-child(1){
+    margin-right: 30px;
+    text-align: center;
+}
+
+
+/* #endregion */
+
+/* #region QUEREMOS DECIRTE ALGO */
+.container__qda{
+    margin: 40px auto;
+    max-width: 1200px;
+
+}
+
+.content-information__qda{
+width: 100%;
+}
+
+.content-information__qda>h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    width: 640px;
+    margin: auto;
+}
+
+.information__qda>.content-box__qda>p{
+    font-size: 28px;
+    width: 600px;
+}
+
+.content-box__qda{
+    width: 100%;
+}
+
+.content-box__qda:nth-child(1){
+
+    margin: 50px 0px;
+}
+
+.content-box__qda:nth-child(2){
+    width: 50%;
+    margin-left: 50%;
+    text-align: right;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.content-box__qda:nth-child(3){
+    font-weight: 600;
+}
+
+
+.text-bottom{
+    max-width: 1200px;
+    margin: 100px auto 0px auto;
+}
+
+.motto__qda>h1:nth-child(1){
+    text-align: center;
+    font-size: 96px;
+    font-family: 'Ledsitex St', sans-serif;
+    color: var(--color-primary-1);
+}
+
+.motto__qda>h1:nth-child(2){
+    text-align: center;
+    font-size: 100px;
+    font-weight: 800;
+    color: var(--color-primary-3);
+}
+
+.container__btn-primary{
+    margin: auto;
+}
+
+.text-bottom>.container__btn-primary{
+    text-align: center;
+    margin-top: 20px;
+}
+/* #endregion */
+
+/* #region WIDGET - LISTO O NO */
+.container__wdg{
+    margin: 60px auto;
+    max-width: 1200px;
+    border-radius: 20px;
+    background-color: #1b1601;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: var(--drop-shadow-2);
+}
+
+.wdg-header{
+    width: 100%;
+    text-align: center;
+}
+
+.wdg-header>span{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: var(--color-primary-2);
+}
+
+.information-wdg{
+    text-align: center;
+}
+
+.information-wdg>h1{
+    font-size: 48px;
+}
+
+.information-wdg>p{
+    font-size: 28px;
+    width: 1100;
+    margin: 15px auto;
+}
+
+.information-wdg>.container__btn-primary{
+    margin: 30px 0;
+}
+/* #endregion */
+
+/* #region ¿GDV RESET? */
+.container__gr{
+    margin: 40px auto;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+.information__gr{
+    margin: auto;
+}
+
+.information__gr>h1{
+    margin: 10px auto 30px auto;
+    text-align: center;
+    font-size: 48px;
+}
+
+.information__gr>p{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 20px 60px;
+}
+.information__gr>p>span{
+    font-family: 'Ledsitex St', sans-serif;
+    font-size: 60px;
+}
+
+.container__collage-img{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.collage-img{
+    width: 300px;
+    height: 220px;
+    overflow: hidden;
+    transition: all .4s ease-in;
+}
+
+.collage-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.collage-img:hover{
+    transform: scale(1.8);
+    box-shadow: var(--drop-shadow-2);
+    border: 2px #1b1601 solid;
+}
+
+.information__gr>.container-btn-primary{
+    margin: auto;
+    text-align: center;
+    margin: 24px 0px;
+}
+/* #endregion */
+
+/* #region FOOTER */
+.container__footer{
+    width: 1400px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #1b1601;
+    overflow: hidden;
+    box-shadow: var(--drop-shadow-2);
+    border-radius: 20px;
+}
+
+.verse{
+    margin: 10px auto;
+    max-width: 1000px;
+}
+
+.verse>p{
+    font-size: 35px;
+    text-align: center;
+    color: var(--color-primary-1);
+    font-weight: 600;
+}
+
+.verse>p>span{
+    font-weight: 300;
+    color: var(--color-primary-3);
+}
+
+.information__footer-bottom{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.footer-bottom-info>span{
+    font-weight: 500;
+}
+
+.footer-bottom-copyright>span{
+    font-weight: 500;
+}
+/* #endregion */
+
+

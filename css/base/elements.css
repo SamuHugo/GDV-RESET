@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-white);
+}
+
+a{
+    text-decoration: none !important;
+    text-transform: none;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+}
+
+a,
+ul,
+img,
+i{
+    user-select: none;
+    color: var(--color-white);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+span,
+p{
+    text-transform: none;
+    color: var(--color-white);
+}
+
+input,
+select,
+textarea {
+    outline: 0;
+    color: var(--color-white);
+    border: none;
+    text-transform: none;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
+
+
+button {
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: var(--color-white);
+}
